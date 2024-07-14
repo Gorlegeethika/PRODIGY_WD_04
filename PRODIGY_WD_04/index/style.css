@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('background.jpg');
+    background-size: cover;
+}
+
+.head-bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.heading {
+    margin-right: 350px;
+}
+
+.heading h2 {
+    margin-left: 100px;
+}
+
+.nav-bar a {
+    margin: 30px;
+    text-decoration: none;
+    color: #7400b8;
+    font-style: italic;
+    font-size: 1.50rem;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    border-radius: 5%;
+    padding: 10px;
+    background-color: white;
+}
+.main{
+    padding:100px;
+    margin:20px;
+}
+
+#name {
+   font-size: 3rem;
+   font-style: italic;
+   color: #f72585;
+   margin-top: 10px;;
+}
+.para{
+    margin-top: 20px;
+    color:rgb(25, 25, 26);
+    font-size: large;
+    font-style: oblique;
+}
+#about-btn{
+    padding:15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#336789;
+    color:white;
+    border: none;
+    margin-top: 20px;
+
+}
+.profile-img {
+    position: absolute;
+    left:55%; /* Adjust positioning as needed */
+    top:55%; /* Adjust positioning as needed */
+    transform: translateY(-50%);
+    border-radius: 50%; /* Round shape */
+    box-shadow: 0 0 30px rgba(17, 158, 190, 0.837); /* Glowing shadow */
+}
+
+.profile-img img {
+    width: 250px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Round shape */
+}
+#contact-btn{
+    margin-left:62%;
+    padding:15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    color:black;
+    border: none;
+}
+.contact button:hover{
+    background-color: #f72585;
+}
+.icons {
+    display:flex;
+}
+.icons{
+    font-size:2.50rem;
+    gap:3%;
+    cursor:pointer;
+}
+.icons i:hover{
+    background-color:#56cfe1;
+}

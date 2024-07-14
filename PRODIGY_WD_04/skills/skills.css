@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('background.jpg');
+    background-size: cover;
+}
+
+.head-bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.heading {
+    margin-right: 350px;
+}
+
+.heading h2 {
+    margin-left: 100px;
+}
+
+.nav-bar a {
+    margin: 30px;
+    text-decoration: none;
+    color: #7400b8;
+    font-style: italic;
+    font-size: 1.50rem;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    border-radius: 5%;
+    padding: 10px;
+    background-color: white;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    padding: 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.both{
+    margin-top:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:4%
+}
+#contact-btn{
+    padding:15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    color:black;
+    border: none;
+    margin-top: 10%;
+}
+.contact button:hover{
+    background-color: #f72585;
+}
+.icons {
+    display:flex;
+}
+.icons{
+    font-size:2.50rem;
+    gap:10%;
+    cursor:pointer;
+}
+.icons i:hover{
+    background-color:#56cfe1;
+}
