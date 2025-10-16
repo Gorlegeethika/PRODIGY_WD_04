@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Header Bar ===== */
+.head-bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#img {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.heading {
+    margin-right: 350px;
+}
+
+.heading h1 {
+    color: #03045e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+}
+
+.heading h2 {
+    color: #19349e;
+    font-size: 1.8rem;
+}
+
+/* ===== Navigation Bar ===== */
+.nav-bar a {
+    margin: 30px;
+    text-decoration: none;
+    color: #7400b8;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.nav-bar a:hover {
+    border-radius: 5%;
+    padding: 10px;
+    background-color: white;
+}
+
+/* ===== Project Buttons ===== */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: gold;
+    transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+.both {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+#contact-btn {
+    padding: 15px 25px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+#contact-btn:hover {
+    background-color: #f72585;
+    color: white;
+}
+
+/* ===== Social Icons ===== */
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    gap: 8%;
+    cursor: pointer;
+}
+
+.icons a {
+    color: black;
+    transition: 0.3s ease;
+}
+
+.icons a:hover {
+    color: #56cfe1;
+    transform: scale(1.2);
+}

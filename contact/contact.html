@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="head-bar">
+        <img src="icon.png" id="img">
+        <div class="heading">
+            <h1 style="color:#03045e;">Expressive<h2 style="color:#19349e">Epics</h2></h1>
+        </div>
+        <div class="nav-bar">
+             <a href="../index/index.html">Home</a>
+            <a href="../profile/profile.html">Profile</a>
+            <a href="../skills/skills.html">Skills</a>
+            <a href="../projects/projects.html">My Projects</a>
+
+        </div>
+    </div>
+    <div class="form">
+        <form id="contact-form">
+            <p>Name:*<input type="text" placeholder="Ganesh" id="name" name="name" required></p>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>Male <input type="radio" id="gender" name="gender" value="male" required></p>
+                <p>Female <input type="radio" id="gender" name="gender" value="female" required></p>
+            </fieldset>
+            <p>Email:<input type="email" placeholder="@gmail.com" id="Email" name="email" required></p>
+            <p>Phone No:<input type="number" placeholder="4567231568" id="number"></p>
+            <p>Message:<textarea name="message" id="message" cols="80" rows="10"></textarea></p>
+            <button type="button" id="send-btn">Send Me</button>
+        </form>
+    </div>   
+    <script>
+        const button = document.getElementById('send-btn');
+
+        // Add a click event listener to the button
+        button.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent the form from submitting
+            alert('Message Sent');
+            setTimeout(() => {
+                window.location.href = '../index/index.html'; // Change 'aboutme.html' to your homepage URL
+            }, 100); // Adjust the delay as needed
+        });
+    </script>
+</body>
+</html>
